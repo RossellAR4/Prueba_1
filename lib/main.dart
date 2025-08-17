@@ -32,13 +32,13 @@ class WeatherScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Fecha y ciudad
+           
             const Text("Jun 2", style: TextStyle(fontSize: 16, color: Colors.grey)),
             const Text("London", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
 
             const SizedBox(height: 8),
 
-            // Temperatura principal
+            
             const Text(
               "21°C",
               style: TextStyle(
@@ -54,7 +54,7 @@ class WeatherScreen extends StatelessWidget {
 
             const SizedBox(height: 24),
 
-            // Sección Temperaturas
+         
             const Text(
               "Temperatures",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -82,7 +82,7 @@ class WeatherScreen extends StatelessWidget {
 
             const SizedBox(height: 24),
 
-            // Detalles
+         
             const Text(
               "Details",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
